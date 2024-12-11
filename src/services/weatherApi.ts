@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { WeatherData } from '../types/weather';
 
-const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+const API_KEY = 'ed36a8703c8249ba8f022644241112'; // Replace with your actual API key
 const BASE_URL = 'https://api.weatherapi.com/v1';
 
 export const getWeatherData = async (city: string): Promise<WeatherData> => {
